@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans";
+   
+}
+
+/*NAVBAR*/
+.container-fluid img{
+    width: 20vh;
+}
+.navbar{
+    justify-content: left !important;
+}
+
+.navbar-brand{
+    cursor:unset;
+}
+
+.navbar-brand img{
+    cursor:pointer ;
+    width: 20vh;
+    height: 12vh;
+}
+
+.navbar.navbar-expand-lg.bg-dark
+{
+    background: #1e2326 !important;
+}
+
+.container-fluid{
+   max-width: 80%;
+}
+
+.navbar .navbar-collapse ul{
+    justify-content: center;
+}
+
+.list-group-item{
+    justify-content: space-between;
+    --bs-list-group-color: #fff;
+    --bs-list-group-bg: #1e2326;
+    --bs-list-group-border-color: none;
+}
+
+
+.list-group-item:hover{
+    cursor: pointer;
+    --bs-list-group-color: #6ae9cf;
+    transition: .5s;
+}
+
+/*SECCION ENCABEZADO/INICIO*/
+
+
+.about-me .rounded-circle{
+    height: auto;
+    width: 10rem !important;
+    margin-top: -10vh;
+}
+
+.bg .banner{
+    background-position: center;   
+    background-color: black;
+   
+}
+
+.banner {
+    background: linear-gradient(rgba(5,7,12,0.5),rgba(5,7,12,0.5)), url(assets/img/fondo6.jpg) no-repeat center center fixed;
+    height: 60vh;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+  
+.btn.btn-edit {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin: 1rem;
+}
+
+.pt-3.about-title{
+  text-align: start;  
+  margin: 0;
+}
+
+.row {
+    background: #1e2326;
+}
+
+.about-me {
+    padding-top: 2rem;
+    display: flex;
+    color: white;
+    margin-bottom: 2vh;
+}
+
+.dev-name{
+    margin: 2rem;
+}
+
+.dev-description{
+    margin: 2rem;
+}
+
+.about-me h1{
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.about-me h3{
+    padding-top: 4rem;
+    margin-right: 20vh;
+}
+
+.btn-container .btn-edit:hover{
+     cursor: pointer;
+     --bs-white-rgb: #6ae9cf ;
+     color: #6ae9cf;
+     transition: .5s;   
+}
+
+/*SECCION EXPERIENCIA*/
+
+.title-wk{
+    padding: 10vh 0 10vh 0;
+}
+
+.title-work{
+    padding-top: 2rem;
+    color:white;
+}
+
+.img-work ,.img-fluid .rounded-2{
+    text-align: center;
+    padding: 16vh 0 40px 0;
+}
+
+
+.work.card.mb-3{
+    background: #1e2326;
+}
+
+.work  h5,p ,.place-work{
+    color: white;
+    margin-right: 20vh;
+    padding-top: 4vh;
+}
+
+.card-body .place-work{
+    text-align: start;
+}
+
+.btn-container-exp{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0;
+  }
+  
+
+.btn.btn-elim{
+    height: 40px;
+    margin: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.btn.btn-edit{
+    height: 40px;
+    margin: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.btn-container-exp .btn-edit:hover, .btn-container-exp .btn-elim:hover{
+    cursor: pointer;
+    --bs-white-rgb: #6ae9cf ;
+    color: #6ae9cf;
+    transition: .5s;
+}
+
+
+/*SECCION EDUCACION*/
+
+.title-ed{
+    padding: 10vh 0 10vh 0;
+}
+
+.title-education, .place-education{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    color:white;
+}
+
+.img-education ,.img-fluid .rounded-2{
+    text-align: center;
+    padding: 16vh 0 40px 0;
+}
+
+
+.education.card.mb-3{
+    background: #1e2326;
+}
+
+.education, p {
+    color: white;
+    text-align: start;
+    padding-top: 4vh;
+}
+
+.card-body .place-education{
+    text-align: start;
+}
+
+.btn-container-ed .btn-edit:hover, .btn-container-ed .btn-elim:hover{
+    cursor: pointer;
+    --bs-white-rgb: #6ae9cf ;
+    color: #6ae9cf;
+    transition: .5s;
+}
+
+
+/*SECCION SKILLS*/
+
+.row h1{
+    color:white;
+    padding: 5rem 0 5rem 0;
+    
+}
+
+.row h2{
+    color:white;
+    text-align: center;
+}
+
+
+.circles h2, .circles{
+    padding: 4rem 0 4rem 0;
+}
+
+
+h1 {
+    color: #63B8FF; text-align: center; 
+} 
+
+.progress-circle {
+    position: relative;
+    display: inline-block;
+    margin: 1rem; width: 120px;
+    height: 120px; border-radius: 50%;
+    background-color: #ebebeb;
+ }
+ 
+ .progress-circle:after {
+    content: '';
+    display: inline-block;
+    width: 100%; 
+    height: 100%; 
+    border-radius: 50%; 
+    -webkit-animation: colorload 2s; 
+    animation: colorload 2s; 
+} 
+
+.progress-circle span { 
+    font-size: 1rem; 
+    color: #8b8b8b; 
+    position: absolute; 
+    left: 50%; 
+    top: 50%; 
+    display: block; 
+    width: 90px; 
+    height: 90px; 
+    line-height: 90px; 
+    margin-left: -45px; 
+    margin-top: -45px; 
+    text-align: center; 
+    border-radius: 50%; 
+    background: #fff; 
+    z-index: 1; 
+} 
+
+.progress-circle span:after { 
+    content: "%"; 
+    font-weight: 600; 
+    color: #8b8b8b; 
+}
+
+.progress-circle.progress-50:after { 
+    background-image: linear-gradient(-90deg, #66b8ff 50%, transparent 50%, transparent), 
+    linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); 
+}
+
+.btn-container-skill{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.btn-container-skill .btn-edit:hover, .btn-container-skill .btn-elim:hover{
+    cursor: pointer;
+    --bs-white-rgb: #6ae9cf ;
+    color: #6ae9cf;
+    transition: .5s;
+}
+
+/*FOOTER*/
+
+footer .footer{
+    background:#1e2326;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    height: 12vh;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 412px), ((max-width: 1280px)) { 
+    
+    header {
+        background: #1e2326;
+            }
+    
+    .pt-3.about-title{
+        text-align: center;
+    }
+    
+    .dev-name .p-md-2{
+        padding: 1rem;
+    }
+
+    .col-sm-8 h3{
+        margin: 0;
+        text-align: center;
+    }
+
+    .title-wk, .place-work{
+        margin: 0;
+    }
+
+    .card-text, .dev-description {
+        text-align:center;
+        margin: 2rem;  
+    }
+    
+    .btn-container-exp{
+        justify-content: center;
+    }
+
+    .card-body .place-education, .card-body .place-work, .row{
+        text-align: center;
+        padding-bottom: 4rem;
+    }
+
+    .circles{
+        margin: 0;
+        justify-content: center;
+    }
+
+    .circles h2{
+        padding: 2rem;
+    }
+}
